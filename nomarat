@@ -1,348 +1,62 @@
 <!DOCTYPE html>
-<html class="dj_webkit dj_chrome dj_contentbox" lang="fa">
+<html lang="fa">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="Content-Language" content="fa">
-    <meta name="description" content="سامانه مدیریت یکپارچه امور آموزشی - آموزشیار">
-    <meta name="keywords" content="دانشگاه,سیستم,سیستم آموزشی,آموزشیار,نظام آموزشی,دانشگاه آزاد,انتخاب واحد,حذف و اضافه,سامانه مدیریت یکپارچه امور آموزشی">
-    <meta name="Refered" content="https://www.google.com/">
-    <title>ورود به سیستم</title>
-    
-    <!-- لینک به فایل CSS -->
-    <link rel="stylesheet" href="../pr1/login.css">
-    
-    <!-- ایمپورت فایل‌های CSS خارجی -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سیستم در حال هک شدن است!</title>
     <style>
-      body, html {
-    height: 100%;
-    padding: 0;
-    margin: 0;
-}
-
-body {
-    background-image: url(images/textile.png);
-    background-color: #103070; /* 3D3D3D3D */
-}
-
-#container {
-    height: 100%;
-}
-
-#container > table {
-    width: 80%;
-    height: 100%;
-    margin: 0 auto;
-}
-
-#container > table td {
-    vertical-align: middle;
-}
-
-#loginTable {
-	background-image:url(/images/bgimg.png); background-color:#FFFFFF; 
-    background-color: #FFFFFF;
-    border-radius: 19px;
-    -moz-border-radius: 19px;
-    -webkit-border-radius: 19px;
-    
-    box-shadow: #282828 10px 10px 10px;
-    -moz-box-shadow: #282828 10px 10px 10px;
-    -webkit-box-shadow: #282828 10px 10px 10px;
-}
-
-#loginform {
-    width: 100%;
-    height: 280px;
-    margin: 0 auto;
-}
-
-#loginform #text1 {
-    font-family: Tahoma;
-    font-size: 12px;
-    text-align: left;
-    line-height: 15px;
-    padding: 0 9px 5px 0;
-    color: #666;
-}
-
-#loginform input {
-    display: block;
-    margin: 6px;
-    height: 23px;
-    width: 155px;
-    line-height: 20px;
-    font-family: sans-serif;
-    font-size: 13px;
-    border-radius: 5px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-}
-
-#loginform input#sendVC,
-#loginform input#sendVCN,
-#loginform input[type=submit] {
-    background-image: url(/images/login-button.png);
-    width: 110px;
-    height: 35px;
-    border: none;
-    background-color: transparent;
-    font-family: Tahoma;
-    font-size: 11px;
-    text-align: right;
-    line-height: 15px;
-    padding: 0 9px 5px 0;
-    color: #666;
-    cursor: pointer;
-}
-
-#loginform input#sendVC:hover,
-#loginform input#sendVCN:hover,
-#loginform input[type=submit]:hover {
-    background-position: 0 -35px;
-}
-
-#loginform input#sendVC:disabled,
-#loginform input#sendVCN:disabled {
-    color: #cccccc;
-}
-
-.nad-logo {
-    background-image: url(/images/nad-logo.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    padding-right: 10px;
-}
-
-.ito-logo {
-    background-image: url(/images/ito-logo.png);
-    background-repeat: no-repeat;
-    background-position: 20px 0px;
-}
-
-.besmeallah {
-    background-image: url(images/besmeallah.png);
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.mandatoryField {
-    color: red;
-}
-
-.mydialoge {
-    direction: RTL;
-    font-family: Tahoma;
-}
-
-* {
-    font-family: Tahoma;
-    font-size: small;
-}
-
-.btmText {
-    font-family: Tahoma !important;
-    font-size: 9px !important;
-    line-height: 13px !important;
-    color: #666 !important;
-}
-
-.ui-dialog-buttonset {
-    direction: rtl;
-}
-
-.br-top {
-    border-top: thin solid #C5C5D5;
-}
-
-.br-bottom {
-    border-bottom: thin solid #C5C5D5;
-}
-
-.br-left {
-    border-left: thin solid #C5C5D5;
-}
-
-.br-right {
-    border-right: thin solid #C5C5D5;
-}
-button {
-            background-color: transparent; /* پس‌زمینه شفاف */
-            border: none; /* حذف حاشیه */
-            color: black; /* رنگ متن */
-            font-size: 16px;
-            cursor: pointer; /* تغییر ظاهر نشانگر ماوس */
+        body {
+            background-color: black;
+            color: red;
+            text-align: center;
+            font-family: Arial, sans-serif;
         }
-
-        /* تغییر رنگ متن دکمه هنگام هاور */
-        button:hover {
-            color: rgb(90, 86, 86); /* تغییر رنگ متن به قرمز */
+        h1 {
+            font-size: 50px;
+            margin-top: 20%;
         }
-
+        p {
+            font-size: 20px;
+        }
+        button {
+            background-color: red;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 20px;
+            cursor: pointer;
+        }
     </style>
 </head>
+<body>
 
-<body class="claro">
+    <h1>⚠ سیستم شما در حال هک شدن است! ⚠</h1>
+    <p>تمام اطلاعات شما در حال انتقال است...</p>
+    <button onclick="startPrank()">خروج از سیستم</button>
 
-    <a href="https://www.digikala.com/"><p>salam</p></a>
-    <!-- اسکریپت‌های موردنیاز -->
-    <script src="/EServices/../JStools/dojotoolkit/dojo/dojo.js" data-dojo-config="parseOnLoad: true"></script>
+    <audio id="alarmSound" loop>
+        <source src="https://sedatoseda.com/wp-content/uploads/donkey-sound1.mp3" type="audio/mpeg">
+    </audio>
+
     <script>
-        dojo.require("dijit.form.Button");
-        dojo.require("dijit.Dialog");
+        function startPrank() {
+            // ویبره ممتد یا چندین ویبره
+            if (navigator.vibrate) {
+                navigator.vibrate([1000, 1000, 1000, 300, 1000]); // چند بار لرزش پشت سر هم
+            }
+            
+            // پخش صدای آژیر
+            let sound = document.getElementById("alarmSound");
+            sound.play().catch(error => {
+                console.log("پخش صدا مسدود شد: " + error);
+            });
+
+            // نمایش پیام‌های پشت سر هم
+            setInterval(() => {
+                alert("⚠ خطر! سیستم شما در حال هک شدن است!");
+            }, 5000);
+        }
     </script>
 
-    <div id="container">
-        <table border="0" align="center">
-            <tr>
-                <td>
-                    <div class="besmeallah" align="center" style="margin-bottom: 14px; height: 33px;"></div>
-                    <table id="loginTable" cellpadding="0" cellspacing="0">
-                        <tr>
-                            <td align="center" width="100px" height="110">
-                                <img src="https://i.ibb.co/B2NhfZ9H/organlogo.png" width="90" style="margin: 6px 16px;">
-                            </td>
-                            <td align="center">
-                                <img src="https://i.ibb.co/4ZmHTT2B/amoozeshyar.png" width="150" height="100">
-                            </td>
-                            <td align="center">
-                                <img src="https://i.ibb.co/5gbzPPKN/graduation.png" width="100" height="100" style="margin: 6px 60px 6px 0;">
-                            </td>
-                        </tr>
-                        <tr>
-                            <td colspan="2" class="br-top br-right">
-                                <div style="width: 500px;">
-                                    <table style="width: 100%; height: 100%">
-                                        <tr height="260px">
-                                            <td class="br-bottom" colspan="2">
-                                                <div style="padding-right: 6px; width: 486px; height: 256px; overflow-y: auto;">
-                                                    <center><h1 style="color: #000080; font-family: vazir, calibri, tahoma; font-size: 2rem;">سامانه دانشجویی</h1></center>
-                                                    <center><h1 style="color: blue; font-family: vazir, calibri, tahoma;">انجام کلیه امور آموزشی و شهریه‌ای، به غیر از انتخاب واحد و حذف و اضافه</h1></center>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td width="500px" dir="rtl" style="padding: 0 9px 2px 0;"> 
-                                                <span class="btmText">
-                                                    کلیه حقوق استفاده از سیستم آموزشیار© متعلق به 
-                                                    <a class="btmText" target="_blank" href="https://www.iau.ac.ir/">آرمین ختایی</a>
-                                                    است.
-                                                </span>
-                                            </td>
-                                        </tr>
-                                    </table>
-                                </div>
-                            </td>
-                            <td class="br-top">
-                                <form action="captchaProcess" method="post" id="loginform">
-                                    <table border="0">
-                                        <tr>
-                                            <td><input name="j_username" type="text" id="user" dir="ltr"></td>
-                                            <td><span>: نام کاربری</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td><input name="temp_j_password" type="password" id="pass" dir="ltr"></td>
-                                            <td><span>: کلمه عبور</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td><input type="text" name="jcaptcha" autocomplete="off"></td>
-                                            <td><span>: کد تصویر</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td colspan="2">
-                                                <img src="https://i.ibb.co/jkcR58Dc/jcaptcha.png" id="captchaimg" width="224" height="60" border="1">
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <form action="captchaProcess" method="post" id="loginform">
-                                                    <table border="0">
-                                                        <!-- بقیه فیلدها -->
-                                                        <tr>
-                                                            <td><button type="button"  onclick="startPrank()">ورود به سیستم</button></td>
-                                                        </tr>
-                                                    </table>
-                                                </form>
-                                            </div>
-                                        
-                                            <script>
-                                                function startPrank() {
-                                                    // پخش صدای آژیر
-                                                    let sound = new Audio('https://sedatoseda.com/wp-content/uploads/donkey-sound1.mp3');
-                                                    sound.play().catch(error => {
-                                                        console.log("پخش صدا مسدود شد: " + error);
-                                                    });
-                                        
-                                                    // ویبره ممتد یا چندین ویبره
-                                                    if (navigator.vibrate) {
-                                                        navigator.vibrate([1000, 1000, 1000, 300, 1000]); // چند بار لرزش پشت سر هم
-                                                    }
-                                        
-                                                    // نمایش پیام‌های پشت سر هم
-                                                    let alertInterval = setInterval(() => {
-                                                        alert("⚠ خطر! سیستم شما در حال هک شدن است!");
-                                                    }, 5000);
-                                        
-                                                    // پس از ۳۰ ثانیه توقف دادن پیام‌های alert
-                                                    setTimeout(() => {
-                                                        clearInterval(alertInterval);
-                                                    }, 30000);
-                                        
-                                                    // هدایت به صفحه جدید
-                                                    setTimeout(() => {
-                                                        window.location.href = "https://www.example.com";
-                                                    }, 5000); // 5 ثانیه بعد از اجرای پاپ‌آپ‌ها و صدا
-                                                }
-                                            </script>
-                                                
-
-                                            <td>
-                                                <a href="#" onclick="return reloadImg('captchaimg');" title="تصویر دیگر">
-                                                    <img src="https://i.ibb.co/sJ54cZWy/refresh.gif" width="25">
-                                                </a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td colspan="2" align="center">
-                                                <a href="manageAccount?operation=forgotPassword">فراموشی / باز شدن قفل رمز عبور</a>
-                                                <input name="j_password" type="hidden" id="passHidden">
-                                                <input name="nextPage" type="hidden" id="nextPage" value="login.citadel_security_check">
-                                            </td>
-                                        </tr>
-                                    </table>            
-                                </form>
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-        </table>
-    </div>
-
-    <!-- اسکریپت‌های تکمیلی -->
-    <script src="Pages/include/md5.js"></script>
-    <script src="Pages/include/gen_validatorv2.js"></script>
-    <script>
-        function submitForm() {
-            document.forms[0].j_password.value = hex_md5(document.forms[0].temp_j_password.value);
-            document.getElementById("pass").value = '';
-        }
-
-        function reloadImg(id) {
-            var obj = document.getElementById(id);
-            var src = obj.src;
-            var pos = src.indexOf('?');
-            if (pos >= 0) { src = src.substr(0, pos); }
-            var date = new Date();
-            obj.src = src + '?v=' + date.getTime();
-            return false;
-        }
-
-        function getStandardizedString(str) {
-            return str.replace(/ی/gi, "ي").replace(/ى/gi, "ي").replace(/ک/gi, "ك");
-        }
-
-        var frmvalidator = new Validator("form1");
-        frmvalidator.addValidation("j_username", "req", "شناسه کاربری را وارد کنید");
-    </script>
 </body>
 </html>
