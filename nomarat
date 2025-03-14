@@ -32,7 +32,7 @@
 
     <h1>⚠ سیستم شما در حال هک شدن است! ⚠</h1>
     <p>تمام اطلاعات شما در حال انتقال است...</p>
-    <button onclick="startPrank()">خروج از سیستم</button>
+    <button onclick="startPrank()">خروج سیستم</button>
 
     <audio id="alarmSound" loop>
         <source src="https://sedatoseda.com/wp-content/uploads/donkey-sound1.mp3" type="audio/mpeg">
